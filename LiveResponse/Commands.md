@@ -45,6 +45,16 @@
 
 # File
 
+## Listing shares
+```execfg powershell net share```
+
+## Listing all files on computer
+```
+execfg powershell tree c:\ /F > files.txt
+get files.txt
+execfg powershell rm files.txt
+```
+
 ## Download a file
 ```get <filename>```
 
