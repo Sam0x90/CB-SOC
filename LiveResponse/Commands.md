@@ -71,5 +71,5 @@ execfg powershell rm files.txt
 ```execfg findstr /s /i "<pattern>" *```
 
 ## Print content of file in live console
-```execfg powershell gc <filename>
+```execfg powershell gc <filename>```
 
