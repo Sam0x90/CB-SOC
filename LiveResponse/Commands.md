@@ -41,6 +41,12 @@
 
 # Network
 
+## Getting network configuration
+```execfg powershell ipconfig /all```
+
+## Listing active connections
+```execfg netstat -anob```
+
 # Process 
 
 # File
