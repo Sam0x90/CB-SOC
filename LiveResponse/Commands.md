@@ -75,4 +75,4 @@ execfg powershell rm files.txt
 ```execfg powershell gc <filename>```
 
 # Print first 50 bytes of file in hex format
-```hexdump <filename>
+```hexdump <filename>```
