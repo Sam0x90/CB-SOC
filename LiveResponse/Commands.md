@@ -1,4 +1,5 @@
-
+These are commands specific to CarbonBlack EDR Live Response.
+Some of them are applicable to any Windows prompt as we are calling a powershell to execute them. 
 
 # General
 
@@ -73,3 +74,5 @@ execfg powershell rm files.txt
 ## Print content of file in live console
 ```execfg powershell gc <filename>```
 
+# Print first 50 bytes of file in hex format
+```hexdump <filename>
