@@ -40,6 +40,9 @@ Some of them are applicable to any Windows prompt as we are calling a powershell
 ```execfg powershell wmic product get name,version```
 ```execfg powershell get-package```
 
+## Query registry
+```reg query HKLM\SYSTEM\<your_key>
+
 # Network
 
 ## Getting network configuration
