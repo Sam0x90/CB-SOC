@@ -43,6 +43,9 @@ Some of them are applicable to any Windows prompt as we are calling a powershell
 ## Query registry
 ```reg query HKLM\SYSTEM\<your_key>```
 
+## Query Event Log
+```execfg powershell get-winevent -LogName 'Security' | where-object {$_.ID -eq 4688}```
+
 # Network
 
 ## Getting network configuration
@@ -77,5 +80,5 @@ execfg powershell rm files.txt
 ## Print content of file in live console
 ```execfg powershell gc <filename>```
 
-# Print first 50 bytes of file in hex format
+## Print first 50 bytes of file in hex format
 ```hexdump <filename>```
