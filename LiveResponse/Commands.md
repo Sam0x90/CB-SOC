@@ -79,6 +79,13 @@ This will prompt the carbonblack user to select which file to upload.
 ## Get hash of file
 ```execfg powershell get-filehash <filename>```
 
+## Unzip a file
+```execfg powershell expand-archive tool.zip```
+
+## Execute a script/tool
+After uploading using ```put```, run the following:
+```execfg .\tool.exe```
+
 ## Search for string pattern recursively
 ```execfg findstr /s /i "<pattern>" *```
 
