@@ -71,6 +71,11 @@ execfg powershell rm files.txt
 ## Download a file
 ```get <filename>```
 
+## Upload a file
+```put <path>```
+
+This will prompt the carbonblack user to select which file to upload.
+
 ## Get hash of file
 ```execfg powershell get-filehash <filename>```
 
