@@ -77,7 +77,9 @@ execfg powershell rm files.txt
 This will prompt the carbonblack user to select which file to upload.
 
 ## Get hash of file
-```execfg powershell get-filehash <filename>```
+```execfg powershell get-filehash <filename> | Format-List```
+
+Format-List will avoid having truncated filepath in the output
 
 ## Unzip a file
 ```execfg powershell expand-archive tool.zip```
