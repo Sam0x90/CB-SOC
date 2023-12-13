@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Project-Archived-red" alt="Project Archived Badge" />
   <h2>🚨 Project Archived 🚨</h2>
   <p>
-    ><strong>Note:</strong> This project is no longer maintained. It has been merged into https://github.com/Sam0x90/CB-Threat-Hunting.
+    <strong>Note:</strong> This project is no longer maintained. It has been merged into https://github.com/Sam0x90/CB-Threat-Hunting.
   </p>
 </div>
 
